@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#game {
+    text-align: center;
+}
+
+#gameWindow {
+    background-color: lightgreen;
+    border: 5px solid;
+}
+
+#resetBtn {
+    background-color: dimgray;
+    font-size : 25px;
+    color: #00FF00;
+    font-family: monospace;
+    letter-spacing: 0.1em;
+    text-rendering: optimizeSpeed;
+    margin-top: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#score {
+    
+    font-family: monospace;
+    letter-spacing: 0.1em;
+    text-rendering: optimizeSpeed;
+    color: #00FF00;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#gameOverText {
+    display : none;
+    font-family: monospace;
+    letter-spacing: 0.1em;
+    text-rendering: optimizeSpeed;
+    font-size: 25px;
+    color: red;
+    margin-top: 10px;
+}
